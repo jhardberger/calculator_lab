@@ -13,7 +13,8 @@ $('.digit').on('click', (e) => {
 
 $('.enter').on('click', (e) => {
 	console.log('enter');//works
-	
+	console.log($('.display').text()); //sort of handy to have here
+
 //enter is going to grab full value of .display 
 //its going to run that value as an equation
 
@@ -29,5 +30,7 @@ $('.enter').on('click', (e) => {
 });
 
 $('.clear').on('click', (e) => {
-	console.log('click'); //works
+	console.log('clear'); //works
+	$('.display').text(' ');
+	$('.result').text(' ');
 });
