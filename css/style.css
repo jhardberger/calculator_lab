@@ -3,15 +3,38 @@ body {
 	font-family: 'VT323', monospace;
 }
 
+b {
+	color: teal;
+}
+
 .calculator {
 	background-color: teal;
-	/*display: flex;
 	justify-content: space-between;
-	flex-wrap: row nowrap;*/
+	flex-wrap: column nowrap;
+}
+
+button {
+	background-color: salmon;
+	border: none;
+	text-decoration: none;
+	font-family: 'VT323', monospace;
+	font-size: 20px;
+	margin-left: 10px;
 }
 
 .display, .result {
 	background-color: lightGray;
 	margin: 10px;
 	height: 20px;
+}
+
+.title {
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+@media (min-width: 375px) {
+	.calculator {
+		max-width: 375px;
+	}
 }
