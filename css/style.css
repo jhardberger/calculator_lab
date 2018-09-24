@@ -1,0 +1,12 @@
+body {
+	background-color: blanchedAlmond;
+	font-family: 'VT323', monospace;
+}
+
+.calculator {
+	background-color: teal;
+	/*display: flex;
+	justify-content: space-between;
+	flex-wrap: row nowrap;*/
+
+}
