@@ -5,6 +5,7 @@ body {
 
 b {
 	color: teal;
+	text-transform: uppercase;
 }
 
 .calculator {
