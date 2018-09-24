@@ -8,5 +8,10 @@ body {
 	/*display: flex;
 	justify-content: space-between;
 	flex-wrap: row nowrap;*/
+}
 
+.display, .result {
+	background-color: lightGray;
+	margin: 10px;
+	height: 20px;
 }
